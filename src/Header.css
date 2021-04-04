@@ -1,0 +1,25 @@
+.header {
+	display: flex;
+	max-width: 1200px;
+	width: 90vw;
+	justify-content: flex-end;
+	margin: 0 auto;
+}
+
+.header > div {
+	padding: 10px 15px;
+	margin-left: 10px;
+	border: 1px solid lightgray;
+	border-radius: 15px;
+	cursor: pointer;
+	font-size: 15px;
+	font-weight: 700;
+	transition: color 0.2s linear, background-color 0.2s linear;
+	color: #1a65c7;
+	background-color: white;
+}
+
+.header > div:hover {
+	color: white;
+	background-color: #1a65c7;
+}
